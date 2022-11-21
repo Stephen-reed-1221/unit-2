@@ -49,4 +49,4 @@ console.log("Variable lastName", lastName)
 lastName = "Smith"
 console.log("Variable lastName", lastName)
 
-// note for git purposeddddddddd
+// note for git purposeddddddddddddd
