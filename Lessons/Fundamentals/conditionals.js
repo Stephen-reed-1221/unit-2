@@ -130,3 +130,44 @@ switch (month) {
     break;
 }
 console.log(totalNumberofDays)
+
+// ? Ternary React Conditional Component
+
+let flag = false
+
+// if (flag) {
+//   console.log("<Signup />")
+// } else {
+//   console.log("<Login />")
+// }
+
+// Ternary Syntax
+// ? condition ? statement if true : statement if false
+
+flag ? console.log("<Signup />") : console.log("<Login />")
+
+// ? If/else allows for if-only conditional
+if (true) {
+  console.log("true condition")
+}
+
+// ? Ternaries do not. There needs to be a null for the falsey condition
+true ? console.log("ternary true condition") : null
+
+let temp = 45
+
+if (temp >= 72) {
+  console.log("it's summer")
+} else if (temp >= 62) {
+  console.log("it's fall")
+}
+
+
+// ? Chaining ternaries
+// ? : else if ? condition if true
+
+// do not use this approach, can get messy
+temp >= 72 ? console.log("It's summer")
+  : temp >= 62 ? console.log("It's Fall")
+  : temp >= 32 ? console.log("It's winter")
+  : null
